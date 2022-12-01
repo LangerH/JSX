@@ -1,13 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+const number = 6;
+const name = "hagai";
 ReactDOM.render(
   <div>
-    <h1>Hello World!</h1>
-    <ul>
-      <li>First</li>
-      <li>Second</li>
-    </ul>
+    <h1>Hello {name}</h1>
+    <p>your Lucky number (number)</p>
   </div>,
   document.getElementById("root")
 );
